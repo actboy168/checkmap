@@ -1,0 +1,17 @@
+LIBRARY      "Storm"
+DESCRIPTION  'Storm'
+
+EXPORTS
+    SFile280@4              @280      ; 0x118
+	SFile281@28             @281      ; 0x119
+
+    SStrCopy@12             @501      ; 0x1F5
+	SStrLen@4               @506      ; 0x1FA
+	SStrUpper@4             @510      ; 0x1FE
+	@SStrChrR@8             @572      ; 0x23C
+	
+    SBigDel@4               @606      ; 0x25E
+	SBigFromBinary@12       @609      ; 0x261
+    SBigNew@4               @624      ; 0x270
+	SBigPowMod@16           @628      ; 0x274
+	SBigToBinaryBuffer@16   @638      ; 0x27E

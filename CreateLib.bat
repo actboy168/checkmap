@@ -1,0 +1,1 @@
+lib /def:storm.def /MACHINE:x86
