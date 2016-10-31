@@ -17,7 +17,7 @@ size_t   WINAPI SStrLen(const char* string);
 int      WINAPI SStrUpper(char *string);
 char*  FASTCALL SStrChrR(const char *string, char c);
 
-int      WINAPI SBigDel(HANDLE* hBig);
+int      WINAPI SBigDel(HANDLE hBig);
 int      WINAPI SBigNew(HANDLE* hBig);
 int      WINAPI SBigFromBinary(HANDLE hBig, const char* buff, unsigned int num);
 int      WINAPI SBigToBinaryBuffer(HANDLE hBig, char* buff, unsigned int num, unsigned int* wnum);
